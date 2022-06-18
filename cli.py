@@ -1,6 +1,7 @@
 import argparse
 
 # https://www.bankofcanada.ca/rates/banking-and-financial-statistics/posted-interest-rates-offered-by-chartered-banks/
+# https://www.calculator.net/personal-loan-calculator.html
 
 class LoanCalculator:
     """
