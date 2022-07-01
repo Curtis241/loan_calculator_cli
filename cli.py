@@ -4,10 +4,6 @@ from lib.console_view import ConsoleView
 from lib.loan_calculator import SimpleInterestCalculator, CompoundInterestCalculator
 
 
-# https://www.bankofcanada.ca/rates/banking-and-financial-statistics/posted-interest-rates-offered-by-chartered-banks/
-# https://www.calculator.net/personal-loan-calculator.html
-
-
 def calculate_simple_interest(args):
     calculator = SimpleInterestCalculator(args.principal, args.rate, args.periods)
     ConsoleView(calculator).display()
